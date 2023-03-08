@@ -22,7 +22,7 @@
 
                 <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="fas fa-users-cog "></i>
+                        <i class="bx bx-user-circle"></i>
                         <span key="t-dashboards">Admin Setting</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
@@ -77,46 +77,9 @@
                     </ul>
                 </li>
 
-                <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="bx bx-store"></i>
-                        <span key="t-ecommerce">Ecommerce</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="ecommerce-products.html" key="t-products">Products</a></li>
-                        <li><a href="ecommerce-product-detail.html" key="t-product-detail">Product Detail</a></li>
-                        <li><a href="ecommerce-orders.html" key="t-orders">Orders</a></li>
-                        <li><a href="ecommerce-customers.html" key="t-customers">Customers</a></li>
-                        <li><a href="ecommerce-cart.html" key="t-cart">Cart</a></li>
-                        <li><a href="ecommerce-checkout.html" key="t-checkout">Checkout</a></li>
-                        <li><a href="ecommerce-shops.html" key="t-shops">Shops</a></li>
-                        <li><a href="ecommerce-add-product.html" key="t-add-product">Add Product</a></li>
-                    </ul>
-                </li>
 
 
-                <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="bx bx-envelope"></i>
-                        <span key="t-email">Email</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="email-inbox.html" key="t-inbox">Inbox</a></li>
-                        <li><a href="email-read.html" key="t-read-email">Read Email</a></li>
-                        <li>
-                            <a href="javascript: void(0);">
-                                <span key="t-email-templates">Templates</span>
-                            </a>
-                            <ul class="sub-menu" aria-expanded="true">
-                                <li><a href="email-template-basic.html" key="t-basic-action">Basic Action</a></li>
-                                <li><a href="email-template-alert.html" key="t-alert-email">Alert Email</a></li>
-                                <li><a href="email-template-billing.html" key="t-bill-email">Billing Email</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-
-                <li>
+                {{-- <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="bx bx-receipt"></i>
                         <span key="t-invoices">Invoices</span>
@@ -137,53 +100,11 @@
                         <li><a href="tasks-kanban.html" key="t-kanban-board">Kanban Board</a></li>
                         <li><a href="tasks-create.html" key="t-create-task">Create Task</a></li>
                     </ul>
-                </li>
+                </li> --}}
 
 
-                <li class="menu-title" key="t-pages">Pages</li>
-
-                <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="bx bx-user-circle"></i>
-                        <span key="t-authentication">Authentication</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="auth-login.html" key="t-login">Login</a></li>
-                        <li><a href="auth-login-2.html" key="t-login-2">Login 2</a></li>
-                        <li><a href="auth-register.html" key="t-register">Register</a></li>
-                        <li><a href="auth-register-2.html" key="t-register-2">Register 2</a></li>
-                        <li><a href="auth-recoverpw.html" key="t-recover-password">Recover Password</a></li>
-                        <li><a href="auth-recoverpw-2.html" key="t-recover-password-2">Recover Password 2</a></li>
-                        <li><a href="auth-lock-screen.html" key="t-lock-screen">Lock Screen</a></li>
-                        <li><a href="auth-lock-screen-2.html" key="t-lock-screen-2">Lock Screen 2</a></li>
-                        <li><a href="auth-confirm-mail.html" key="t-confirm-mail">Confirm Email</a></li>
-                        <li><a href="auth-confirm-mail-2.html" key="t-confirm-mail-2">Confirm Email 2</a></li>
-                        <li><a href="auth-email-verification.html" key="t-email-verification">Email verification</a></li>
-                        <li><a href="auth-email-verification-2.html" key="t-email-verification-2">Email Verification 2</a></li>
-                        <li><a href="auth-two-step-verification.html" key="t-two-step-verification">Two Step Verification</a></li>
-                        <li><a href="auth-two-step-verification-2.html" key="t-two-step-verification-2">Two Step Verification 2</a></li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="bx bx-file"></i>
-                        <span key="t-utility">Utility</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="pages-starter.html" key="t-starter-page">Starter Page</a></li>
-                        <li><a href="pages-maintenance.html" key="t-maintenance">Maintenance</a></li>
-                        <li><a href="pages-comingsoon.html" key="t-coming-soon">Coming Soon</a></li>
-                        <li><a href="pages-timeline.html" key="t-timeline">Timeline</a></li>
-                        <li><a href="pages-faqs.html" key="t-faqs">FAQs</a></li>
-                        <li><a href="pages-pricing.html" key="t-pricing">Pricing</a></li>
-                        <li><a href="pages-404.html" key="t-error-404">Error 404</a></li>
-                        <li><a href="pages-500.html" key="t-error-500">Error 500</a></li>
-                    </ul>
-                </li>
 
                 <li class="menu-title" key="t-components">Web Settings</li>
-
 
                 <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
@@ -201,23 +122,19 @@
                     </ul>
                 </li>
 
+                <li class="menu-title" key="t-pages">Website View</li>
 
                 <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="bx bx-share-alt"></i>
-                        <span key="t-multi-level">Multi Level</span>
+                        <i class="bx bx-aperture"></i>
+                        <span key="t-authentication">View</span>
                     </a>
-                    <ul class="sub-menu" aria-expanded="true">
-                        <li><a href="javascript: void(0);" key="t-level-1-1">Level 1.1</a></li>
-                        <li>
-                            <a href="javascript: void(0);" class="has-arrow" key="t-level-1-2">Level 1.2</a>
-                            <ul class="sub-menu" aria-expanded="true">
-                                <li><a href="javascript: void(0);" key="t-level-2-1">Level 2.1</a></li>
-                                <li><a href="javascript: void(0);" key="t-level-2-2">Level 2.2</a></li>
-                            </ul>
-                        </li>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="{{url('/')}}" target="_blank" key="t-login">Website</a></li>
                     </ul>
                 </li>
+
+
 
             </ul>
         </div>
