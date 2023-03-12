@@ -166,14 +166,19 @@
                                                 <p class="card-title-desc">Fill all Logo setting below</p>
                                             </div>
 
+
+
                                             <div class="row">
                                                 <div class="col-lg-6">
                                                     <div>
                                                         <div class="mb-4 form-group">
                                                             <label for="input-date1">Logo</label>
                                                             <input type="file" class="form-control" name="logo">
-                                                            <input type="hidden" name="old_logo"
+                                                            <input type="hidden" name="logo"
                                                                 value="{{ $setting->logo }}">
+                                                                <img id="showImage" src="{{ (!empty($setting->logo))? url('public/upload/setting/logo'.$setting->logo):url('public/upload/avatar_default.png') }}"
+                                                                alt="logo-image" class="rounded avatar-lg" height="200">
+
                                                         </div>
 
                                                     </div>

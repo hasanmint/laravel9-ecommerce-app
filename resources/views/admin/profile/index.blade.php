@@ -26,7 +26,7 @@
             <div class="card">
                 <div class="card-body">
                     <div class="text-center mt-3">
-                    <img src="{{ (!empty($ProdifleData->photo))? url('upload/profile_photo/'.$ProdifleData->photo):url('upload/avatar_default.png') }}" alt="" class="mx-auto d-block rounded avatar-lg" height="100">
+                    <img src="{{ (!empty($ProdifleData->photo))? url('public/upload/profile_photo/'.$ProdifleData->photo):url('public/upload/avatar_default.png') }}" alt="" class="mx-auto d-block rounded avatar-lg" height="100">
 
 
                         <h5 class="mt-3 mb-1">{{$ProdifleData->name}}</h5>

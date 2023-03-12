@@ -5,7 +5,7 @@
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                     <div class="footer-widget__column footer-widget__about">
                         <div class="footer-widget__about-logo">
-                            <a href="index.html"><img src="{{asset('frontend/assets/images/resources/footer-logo.png')}}" alt=""></a>
+                            <a href="index.html"><img src="{{asset('public/frontend/assets/images/resources/footer-logo.png')}}" alt=""></a>
                         </div>
                         <p class="footer-widget__about-text">The agile philosophy in lot of the process of
                             analyzing, plannin, and implementing strategies level.plannin
@@ -37,7 +37,7 @@
                         <ul class="footer-widget__blog-list list-unstyled clearfix">
                             <li>
                                 <div class="footer-widget__blog-img">
-                                    <img src="{{asset('frontend/assets/images/blog/footer-widget-blog-img-1.jpg')}}" alt="">
+                                    <img src="{{asset('public/frontend/assets/images/blog/footer-widget-blog-img-1.jpg')}}" alt="">
                                     <a href="blog-details.html"><i class="icon-link"></i></a>
                                 </div>
                                 <div class="footer-widget__blog-content">
@@ -49,7 +49,7 @@
                             </li>
                             <li>
                                 <div class="footer-widget__blog-img">
-                                    <img src="{{asset('frontend/assets/images/blog/footer-widget-blog-img-2.jpg')}}" alt="">
+                                    <img src="{{asset('public/frontend/assets/images/blog/footer-widget-blog-img-2.jpg')}}" alt="">
                                     <a href="blog-details.html"><i class="icon-link"></i></a>
                                 </div>
                                 <div class="footer-widget__blog-content">

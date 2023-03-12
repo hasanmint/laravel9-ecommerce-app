@@ -4,19 +4,19 @@
         <div class="navbar-brand-box">
             <a href="index.html" class="logo logo-dark">
                 <span class="logo-sm">
-                    <img src="{{ asset('backend/assets/images/logo.svg') }}" alt="" height="22">
+                    <img src="{{ asset('public/backend/assets/images/logo.svg') }}" alt="" height="22">
                 </span>
                 <span class="logo-lg">
-                    <img src="{{ asset('backend/assets/images/logo-dark.png') }}" alt="" height="17">
+                    <img src="{{ asset('public/backend/assets/images/logo-dark.png') }}" alt="" height="17">
                 </span>
             </a>
 
             <a href="index.html" class="logo logo-light">
                 <span class="logo-sm">
-                    <img src="{{ asset('backend/assets/images/logo-light.svg') }}" alt="" height="22">
+                    <img src="{{ asset('public/backend/assets/images/logo-light.svg') }}" alt="" height="22">
                 </span>
                 <span class="logo-lg">
-                    <img src="{{ asset('backend/assets/images/logo-light.png') }}" alt="" height="19">
+                    <img src="{{ asset('public/backend/assets/images/logo-light.png') }}" alt="" height="19">
                 </span>
             </a>
         </div>
@@ -63,37 +63,37 @@
         <div class="dropdown d-inline-block">
             <button type="button" class="btn header-item waves-effect" data-bs-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">
-                <img id="header-lang-img" src="{{ asset('backend/assets/images/flags/us.jpg') }}" alt="Header Language"
+                <img id="header-lang-img" src="{{ asset('public/backend/assets/images/flags/us.jpg') }}" alt="Header Language"
                     height="16">
             </button>
             <div class="dropdown-menu dropdown-menu-end">
 
                 <!-- item-->
                 <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="en">
-                    <img src="{{ asset('backend/assets/images/flags/us.jpg') }}" alt="user-image" class="me-1"
+                    <img src="{{ asset('public/backend/assets/images/flags/us.jpg') }}" alt="user-image" class="me-1"
                         height="12"> <span class="align-middle">English</span>
                 </a>
                 <!-- item-->
                 <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="sp">
-                    <img src="{{ asset('backend/assets/images/flags/spain.jpg') }}" alt="user-image" class="me-1"
+                    <img src="{{ asset('public/backend/assets/images/flags/spain.jpg') }}" alt="user-image" class="me-1"
                         height="12"> <span class="align-middle">Spanish</span>
                 </a>
 
                 <!-- item-->
                 <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="gr">
-                    <img src="{{ asset('backend/assets/images/flags/germany.jpg') }}" alt="user-image" class="me-1"
+                    <img src="{{ asset('public/backend/assets/images/flags/germany.jpg') }}" alt="user-image" class="me-1"
                         height="12"> <span class="align-middle">German</span>
                 </a>
 
                 <!-- item-->
                 <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="it">
-                    <img src="{{ asset('backend/assets/images/flags/italy.jpg') }}" alt="user-image" class="me-1"
+                    <img src="{{ asset('public/backend/assets/images/flags/italy.jpg') }}" alt="user-image" class="me-1"
                         height="12"> <span class="align-middle">Italian</span>
                 </a>
 
                 <!-- item-->
                 <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="ru">
-                    <img src="{{ asset('backend/assets/images/flags/russia.jpg') }}" alt="user-image" class="me-1"
+                    <img src="{{ asset('public/backend/assets/images/flags/russia.jpg') }}" alt="user-image" class="me-1"
                         height="12"> <span class="align-middle">Russian</span>
                 </a>
             </div>
@@ -145,7 +145,7 @@
                     </a>
                     <a href="javascript: void(0);" class="text-reset notification-item">
                         <div class="d-flex">
-                            <img src="{{ asset('backend/assets/images/users/avatar-3.jpg') }}"
+                            <img src="{{ asset('public/backend/assets/images/users/avatar-3.jpg') }}"
                                 class="me-3 rounded-circle avatar-xs" alt="user-pic">
                             <div class="flex-grow-1">
                                 <h6 class="mb-1">James Lemire</h6>
@@ -177,7 +177,7 @@
 
                     <a href="javascript: void(0);" class="text-reset notification-item">
                         <div class="d-flex">
-                            <img src="{{ asset('backend/assets/images/users/avatar-4.jpg') }}"
+                            <img src="{{ asset('public/backend/assets/images/users/avatar-4.jpg') }}"
                                 class="me-3 rounded-circle avatar-xs" alt="user-pic">
                             <div class="flex-grow-1">
                                 <h6 class="mb-1">Salena Layfield</h6>
@@ -209,7 +209,7 @@
             <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
                 data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <img class="rounded-circle header-profile-user"
-                    src="{{ (!empty($ProdifleData->photo))? url('upload/profile_photo/'.$ProdifleData->photo):url('upload/avatar_default.png') }}" alt="Header Avatar">
+                    src="{{ (!empty($ProdifleData->photo))? url('public/upload/profile_photo/'.$ProdifleData->photo):url('public/upload/avatar_default.png') }}" alt="Header Avatar">
                 <span class="d-none d-xl-inline-block ms-1" key="t-henry">{{$ProdifleData->name}}</span>
                 <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
             </button>

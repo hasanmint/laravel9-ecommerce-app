@@ -47,7 +47,7 @@
             <div class="main-menu-wrapper clearfix">
                 <div class="main-menu-wrapper__left">
                     <div class="main-menu-wrapper__logo">
-                        <a href="index.html"><img src="{{asset('frontend/assets/images/resources/logo-1.png')}}" alt=""></a>
+                        <a href="index.html"><img src="{{asset('public/frontend/assets/images/resources/logo-1.png')}}" alt=""></a>
                     </div>
                 </div>
                 <div class="main-menu-wrapper__right">

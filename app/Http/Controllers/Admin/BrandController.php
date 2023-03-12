@@ -87,9 +87,9 @@ class BrandController extends Controller
            $photo=$request->image;
            $photoname=uniqid().'.'.$photo->getClientOriginalExtension();
            // $photo->move('public/files/brand/',$photoname);  //without image intervention
-           Image::make($photo)->resize(240,120)->save('upload/brand/'.$photoname);  //image intervention
+           Image::make($photo)->resize(240,120)->save('public/upload/brand/'.$photoname);  //image intervention
 
-         $data['image']='upload/brand/'.$photoname;   // public/files/brand/plus-point.jpg
+         $data['image']='public/upload/brand/'.$photoname;   // public/files/brand/plus-point.jpg
          Brand::create($data);
 
         flash()->addSuccess('Brand Insert Successfully');
@@ -140,8 +140,8 @@ class BrandController extends Controller
     	        }
     		  $photo=$request->image;
     	      $photoname=uniqid().'.'.$photo->getClientOriginalExtension();
-    	      Image::make($photo)->resize(240,120)->save('upload/brand/'.$photoname);
-    	      $data['image']='upload/brand/'.$photoname;
+    	      Image::make($photo)->resize(240,120)->save('public/upload/brand/'.$photoname);
+    	      $data['image']='public/upload/brand/'.$photoname;
     	      Brand::where('id',$request->id)->update($data);
               flash()->addSuccess('brand Update Successfully');
               return redirect()->route('brand.index')->with('message','brand Update Successfully');

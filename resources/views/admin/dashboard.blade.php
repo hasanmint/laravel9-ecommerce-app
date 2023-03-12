@@ -9,7 +9,7 @@
     <div class="mb-4 row">
         <div class="col-lg-12">
             <div class="d-flex align-items-center">
-                <img src="{{ asset('backend/assets/images/users/avatar-1.jpg') }}" alt="" class="rounded avatar-sm">
+                <img src="{{ asset('public/backend/assets/images/users/avatar-1.jpg') }}" alt="" class="rounded avatar-sm">
                 <div class="ms-3 flex-grow-1">
                     <h5 class="mb-2 card-title">Hello, Henry Franklin</h5>
                     <p class="mb-0 text-muted">Ready to jump back in?</p>
@@ -164,7 +164,7 @@
                             </div>
                         </div>
                         <div>
-                            <img src="{{ asset('backend/assets/images/jobs..png') }}" alt="" height="130">
+                            <img src="{{ asset('public/backend/assets/images/jobs..png') }}" alt="" height="130">
                         </div>
                     </div>
                 </div>
@@ -177,7 +177,7 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="3000">
                                 <div class="p-3 mb-3 rounded bg-light d-flex">
-                                    <img src="{{ asset('backend/assets/images/users/avatar-4.jpg') }}" alt=""
+                                    <img src="{{ asset('public/backend/assets/images/users/avatar-4.jpg') }}" alt=""
                                         class="rounded avatar-sm me-3">
                                     <div class="flex-grow-1">
                                         <h5 class="mb-2 font-size-15"><a
@@ -207,7 +207,7 @@
                                     </div>
                                 </div>
                                 <div class="p-3 bg-light d-flex">
-                                    <img src="{{ asset('backend/assets/images/users/avatar-2.jpg') }}" alt=""
+                                    <img src="{{ asset('public/backend/assets/images/users/avatar-2.jpg') }}" alt=""
                                         class="rounded avatar-sm me-3">
                                     <div class="flex-grow-1">
                                         <h5 class="mb-2 font-size-15"><a
@@ -239,7 +239,7 @@
                             </div>
                             <div class="carousel-item" data-bs-interval="3000">
                                 <div class="p-3 mb-3 rounded bg-light d-flex">
-                                    <img src="{{ asset('backend/assets/images/users/avatar-1.jpg') }}" alt=""
+                                    <img src="{{ asset('public/backend/assets/images/users/avatar-1.jpg') }}" alt=""
                                         class="rounded avatar-sm me-3">
                                     <div class="flex-grow-1">
                                         <h5 class="mb-2 font-size-15"><a
@@ -270,7 +270,7 @@
                                     </div>
                                 </div>
                                 <div class="p-3 bg-light d-flex">
-                                    <img src="{{ asset('backend/assets/images/users/avatar-3.jpg') }}" alt=""
+                                    <img src="{{ asset('public/backend/assets/images/users/avatar-3.jpg') }}" alt=""
                                         class="rounded avatar-sm me-3">
                                     <div class="flex-grow-1">
                                         <h5 class="mb-2 font-size-15"><a
@@ -302,7 +302,7 @@
                             </div>
                             <div class="carousel-item" data-bs-interval="3000">
                                 <div class="p-3 mb-3 rounded bg-light d-flex">
-                                    <img src="{{ asset('backend/assets/images/users/avatar-4.jpg') }}" alt=""
+                                    <img src="{{ asset('public/backend/assets/images/users/avatar-4.jpg') }}" alt=""
                                         class="rounded avatar-sm me-3">
                                     <div class="flex-grow-1">
                                         <h5 class="mb-2 font-size-15"><a
@@ -333,7 +333,7 @@
                                     </div>
                                 </div>
                                 <div class="p-3 bg-light d-flex">
-                                    <img src="{{ asset('backend/assets/images/users/avatar-2.jpg') }}" alt=""
+                                    <img src="{{ asset('public/backend/assets/images/users/avatar-2.jpg') }}" alt=""
                                         class="rounded avatar-sm me-3">
                                     <div class="flex-grow-1">
                                         <h5 class="mb-2 font-size-15"><a
@@ -388,7 +388,7 @@
             <div class="card">
                 <div class="p-4 card-body">
                     <div class="mb-3 text-center">
-                        <img src="{{ asset('backend/assets/images/companies/airbnb.svg') }}" alt=""
+                        <img src="{{ asset('public/backend/assets/images/companies/airbnb.svg') }}" alt=""
                             class="avatar-sm">
                         <a href="job-details.html" class="text-body">
                             <h5 class="mt-4 mb-2 font-size-15">Project Manager</h5>
@@ -410,7 +410,7 @@
             <div class="card">
                 <div class="p-4 card-body">
                     <div class="mb-3 text-center">
-                        <img src="{{ asset('backend/assets/images/companies/mailchimp.svg') }}" alt=""
+                        <img src="{{ asset('public/backend/assets/images/companies/mailchimp.svg') }}" alt=""
                             class="avatar-sm">
                         <a href="job-details.html" class="text-body">
                             <h5 class="mt-4 mb-2 font-size-15">Marketing Director</h5>
@@ -431,7 +431,7 @@
             <div class="card">
                 <div class="p-4 card-body">
                     <div class="mb-3 text-center">
-                        <img src="{{ asset('backend/assets/images/companies/reddit.svg') }}" alt=""
+                        <img src="{{ asset('public/backend/assets/images/companies/reddit.svg') }}" alt=""
                             class="avatar-sm">
                         <a href="job-details.html" class="text-body">
                             <h5 class="mt-4 mb-2 font-size-15">Product Designer</h5>
@@ -452,7 +452,7 @@
             <div class="card">
                 <div class="p-4 card-body">
                     <div class="mb-3 text-center">
-                        <img src="{{ asset('backend/assets/images/companies/amazon.svg') }}') }}" alt=""
+                        <img src="{{ asset('public/backend/assets/images/companies/amazon.svg') }}') }}" alt=""
                             class="avatar-sm">
                         <a href="job-details.html" class="text-body">
                             <h5 class="mt-4 mb-2 font-size-15">Magento Developer</h5>
@@ -473,7 +473,7 @@
             <div class="card">
                 <div class="p-4 card-body">
                     <div class="mb-3 text-center">
-                        <img src="{{ asset('backend/assets/images/companies/adobe-photoshop.svg') }}" alt=""
+                        <img src="{{ asset('public/backend/assets/images/companies/adobe-photoshop.svg') }}" alt=""
                             class="avatar-sm">
                         <a href="job-details.html" class="text-body">
                             <h5 class="mt-4 mb-2 font-size-15">Product Sales Specialist</h5>
@@ -494,7 +494,7 @@
             <div class="card">
                 <div class="p-4 card-body">
                     <div class="mb-3 text-center">
-                        <img src="{{ asset('backend/assets/images/companies/line.svg') }}" alt=""
+                        <img src="{{ asset('public/backend/assets/images/companies/line.svg') }}" alt=""
                             class="avatar-sm">
                         <a href="job-details.html" class="text-body">
                             <h5 class="mt-4 mb-2 font-size-15">Business Associate</h5>
@@ -555,7 +555,7 @@
                                 </div>
                                 <div class="d-flex">
                                     <div class="flex-shrink-0 me-3">
-                                        <img src="{{ asset('backend/assets/images/users/avatar-5.jpg') }}" alt=""
+                                        <img src="{{ asset('public/backend/assets/images/users/avatar-5.jpg') }}" alt=""
                                             class="avatar-xs rounded-circle">
                                     </div>
                                     <div class="flex-grow-1">
@@ -617,7 +617,7 @@
                                 </div>
                                 <div class="d-flex">
                                     <div class="flex-shrink-0 me-3">
-                                        <img src="{{ asset('backend/assets/images/users/avatar-2.jpg') }}" alt=""
+                                        <img src="{{ asset('public/backend/assets/images/users/avatar-2.jpg') }}" alt=""
                                             class="avatar-xs rounded-circle">
                                     </div>
                                     <div class="flex-grow-1">
@@ -668,7 +668,7 @@
                     <div data-simplebar style="max-height: 376px;">
                         <div class="gap-4 vstack">
                             <div class="d-flex">
-                                <img src="{{ asset('backend/assets/images/companies/wechat.svg') }}') }}" alt=""
+                                <img src="{{ asset('public/backend/assets/images/companies/wechat.svg') }}') }}" alt=""
                                     height="40" class="rounded">
                                 <div class="ms-2 flex-grow-1">
                                     <h6 class="mb-1 font-size-15"><a href="job-details.html"
@@ -692,7 +692,7 @@
                             </div>
 
                             <div class="d-flex">
-                                <img src="{{ asset('backend/assets/images/companies/sass..svg') }}') }}" alt=""
+                                <img src="{{ asset('public/backend/assets/images/companies/sass..svg') }}') }}" alt=""
                                     height="40" class="rounded">
                                 <div class="ms-2 flex-grow-1">
                                     <h6 class="mb-1 font-size-15"><a href="job-details.html"
@@ -716,7 +716,7 @@
                             </div>
 
                             <div class="d-flex">
-                                <img src="{{ asset('backend/assets/images/companies/adobe.svg') }}') }}" alt=""
+                                <img src="{{ asset('public/backend/assets/images/companies/adobe.svg') }}') }}" alt=""
                                     height="40" class="rounded">
                                 <div class="ms-2 flex-grow-1">
                                     <h6 class="mb-1 font-size-15"><a href="job-details.html"
@@ -739,7 +739,7 @@
                                 </div>
                             </div>
                             <div class="d-flex">
-                                <img src="{{ asset('backend/assets/images/companies/airbnb.svg') }}') }}" alt=""
+                                <img src="{{ asset('public/backend/assets/images/companies/airbnb.svg') }}') }}" alt=""
                                     height="40" class="rounded">
                                 <div class="ms-2 flex-grow-1">
                                     <h6 class="mb-1 font-size-15"><a href="job-details.html"
@@ -762,7 +762,7 @@
                                 </div>
                             </div>
                             <div class="d-flex">
-                                <img src="{{ asset('backend/assets/images/companies/flutter.svg') }}') }}" alt=""
+                                <img src="{{ asset('public/backend/assets/images/companies/flutter.svg') }}') }}" alt=""
                                     height="40" class="rounded">
                                 <div class="ms-2 flex-grow-1">
                                     <h6 class="mb-1 font-size-15"><a href="job-details.html"
@@ -786,7 +786,7 @@
                                 </div>
                             </div>
                             <div class="d-flex">
-                                <img src="{{ asset('backend/assets/images/companies/mailchimp.svg') }}" alt=""
+                                <img src="{{ asset('public/backend/assets/images/companies/mailchimp.svg') }}" alt=""
                                     height="40" class="rounded">
                                 <div class="ms-2 flex-grow-1">
                                     <h6 class="mb-1 font-size-15"><a href="job-details.html"
@@ -809,7 +809,7 @@
                                 </div>
                             </div>
                             <div class="d-flex">
-                                <img src="{{ asset('backend/assets/images/companies/spotify.svg') }}" alt=""
+                                <img src="{{ asset('public/backend/assets/images/companies/spotify.svg') }}" alt=""
                                     height="40" class="rounded">
                                 <div class="ms-2 flex-grow-1">
                                     <h6 class="mb-1 font-size-15"><a href="job-details.html"
@@ -832,7 +832,7 @@
                                 </div>
                             </div>
                             <div class="d-flex">
-                                <img src="{{ asset('backend/assets/images/companies/reddit.svg') }}" alt=""
+                                <img src="{{ asset('public/backend/assets/images/companies/reddit.svg') }}" alt=""
                                     height="40" class="rounded">
                                 <div class="ms-2 flex-grow-1">
                                     <h6 class="mb-1 font-size-15"><a href="job-details.html"

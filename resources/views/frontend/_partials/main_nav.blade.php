@@ -168,11 +168,11 @@
 
                     <div class="menu_contact">
                         <div class="menu_contact_item">
-                            <div class="menu_contact_icon"><img src="{{ asset('frontend/assets/images/phone_white.png') }}"
+                            <div class="menu_contact_icon"><img src="{{ asset('public/frontend/assets/images/phone_white.png') }}"
                                     alt=""></div>+38 068 005 3570
                         </div>
                         <div class="menu_contact_item">
-                            <div class="menu_contact_icon"><img src="{{ asset('frontend/assets/images/mail_white.png') }}"
+                            <div class="menu_contact_icon"><img src="{{ asset('public/frontend/assets/images/mail_white.png') }}"
                                     alt=""></div><a
                                 href="mailto:fastsales@gmail.com">fastsales@gmail.com</a>
                         </div>

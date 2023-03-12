@@ -13,14 +13,14 @@
     <meta name="description" content="OneTech shop project">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/assets/styles/bootstrap4/bootstrap.min.css') }}">
-    <link href="{{ asset('frontend/assets/plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/assets/plugins/OwlCarousel2-2.2.1/owl.carousel.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/assets/plugins/OwlCarousel2-2.2.1/owl.theme.default.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/assets/plugins/OwlCarousel2-2.2.1/animate.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/assets/plugins/slick-1.8.0/slick.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/assets/styles/main_styles.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/assets/styles/responsive.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('public/frontend/assets/styles/bootstrap4/bootstrap.min.css') }}">
+    <link href="{{ asset('public/frontend/assets/plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('public/frontend/assets/plugins/OwlCarousel2-2.2.1/owl.carousel.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('public/frontend/assets/plugins/OwlCarousel2-2.2.1/owl.theme.default.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('public/frontend/assets/plugins/OwlCarousel2-2.2.1/animate.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('public/frontend/assets/plugins/slick-1.8.0/slick.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('public/frontend/assets/styles/main_styles.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('public/frontend/assets/styles/responsive.css') }}">
 
 </head>
 
@@ -39,11 +39,11 @@
                     <div class="row">
                         <div class="flex-row col d-flex">
                             <div class="top_bar_contact_item">
-                                <div class="top_bar_icon"><img src="{{ asset('frontend/assets/images/phone.png') }}" alt=""></div>+88 08754 895
+                                <div class="top_bar_icon"><img src="{{ asset('public/frontend/assets/images/phone.png') }}" alt=""></div>+88 08754 895
                                 6589
                             </div>
                             <div class="top_bar_contact_item">
-                                <div class="top_bar_icon"><img src="{{ asset('frontend/assets/images/mail.png') }}" alt=""></div><a
+                                <div class="top_bar_icon"><img src="{{ asset('public/frontend/assets/images/mail.png') }}" alt=""></div><a
                                     href="mailto:info@gmail.com">info@gmail.com</a>
                             </div>
                             <div class="ml-auto top_bar_content">
@@ -68,9 +68,9 @@
                                     </ul>
                                 </div>
                                 <div class="top_bar_user">
-                                    <div class="user_icon"><img src="{{ asset('frontend/assets/images/user.svg') }}" alt=""></div>
-                                    <div><a href="#">Register</a></div>
-                                    <div><a href="#">Sign in</a></div>
+                                    <div class="user_icon"><img src="{{ asset('public/frontend/assets/images/user.svg') }}" alt=""></div>
+                                    <div><a href="{{route('register')}}">Register</a></div>
+                                    <div><a href="{{route('login')}}">Sign in</a></div>
                                 </div>
                             </div>
                         </div>
@@ -114,7 +114,7 @@
                                                 </div>
                                             </div>
                                             <button type="submit" class="header_search_button trans_300"
-                                                value="Submit"><img src="{{ asset('frontend/assets/images/search.png') }}" alt=""></button>
+                                                value="Submit"><img src="{{ asset('public/frontend/assets/images/search.png') }}" alt=""></button>
                                         </form>
                                     </div>
                                 </div>
@@ -125,7 +125,7 @@
                         <div class="order-2 text-right col-lg-4 col-9 order-lg-3 text-lg-left">
                             <div class="flex-row wishlist_cart d-flex align-items-center justify-content-end">
                                 <div class="flex-row wishlist d-flex align-items-center justify-content-end">
-                                    <div class="wishlist_icon"><img src="{{ asset('frontend/assets/images/heart.png') }}" alt=""></div>
+                                    <div class="wishlist_icon"><img src="{{ asset('public/frontend/assets/images/heart.png') }}" alt=""></div>
                                     <div class="wishlist_content">
                                         <div class="wishlist_text"><a href="#">Wishlist</a></div>
                                         <div class="wishlist_count">115</div>
@@ -136,7 +136,7 @@
                                 <div class="cart">
                                     <div class="flex-row cart_container d-flex align-items-center justify-content-end">
                                         <div class="cart_icon">
-                                            <img src="{{ asset('frontend/assets/images/cart.png') }}" alt="">
+                                            <img src="{{ asset('public/frontend/assets/images/cart.png') }}" alt="">
                                             <div class="cart_count"><span>10</span></div>
                                         </div>
                                         <div class="cart_content">
@@ -256,10 +256,10 @@
                             </div>
                             <div class="logos ml-sm-auto">
                                 <ul class="logos_list">
-                                    <li><a href="#"><img src="{{ asset('frontend/assets/images/logos_1.png') }}" alt=""></a></li>
-                                    <li><a href="#"><img src="{{ asset('frontend/assets/images/logos_2.png') }}" alt=""></a></li>
-                                    <li><a href="#"><img src="{{ asset('frontend/assets/images/logos_3.png') }}" alt=""></a></li>
-                                    <li><a href="#"><img src="{{ asset('frontend/assets/images/logos_4.png') }}" alt=""></a></li>
+                                    <li><a href="#"><img src="{{ asset('public/frontend/assets/images/logos_1.png') }}" alt=""></a></li>
+                                    <li><a href="#"><img src="{{ asset('public/frontend/assets/images/logos_2.png') }}" alt=""></a></li>
+                                    <li><a href="#"><img src="{{ asset('public/frontend/assets/images/logos_3.png') }}" alt=""></a></li>
+                                    <li><a href="#"><img src="{{ asset('public/frontend/assets/images/logos_4.png') }}" alt=""></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -269,18 +269,18 @@
         </div>
     </div>
 
-    <script src="{{ asset('frontend/assets/js/jquery-3.3.1.min.js') }}"></script>
-    <script src="{{ asset('frontend/assets/styles/bootstrap4/popper.js') }}"></script>
-    <script src="{{ asset('frontend/assets/styles/bootstrap4/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('frontend/assets/plugins/greensock/TweenMax.min.js') }}"></script>
-    <script src="{{ asset('frontend/assets/plugins/greensock/TimelineMax.min.js') }}"></script>
-    <script src="{{ asset('frontend/assets/plugins/scrollmagic/ScrollMagic.min.js') }}"></script>
-    <script src="{{ asset('frontend/assets/plugins/greensock/animation.gsap.min.js') }}"></script>
-    <script src="{{ asset('frontend/assets/plugins/greensock/ScrollToPlugin.min.js') }}"></script>
-    <script src="{{ asset('frontend/assets/plugins/OwlCarousel2-2.2.1/owl.carousel.js') }}"></script>
-    <script src="{{ asset('frontend/assets/plugins/slick-1.8.0/slick.js') }}"></script>
-    <script src="{{ asset('frontend/assets/plugins/easing/easing.js') }}"></script>
-    <script src="{{ asset('frontend/assets/js/custom.js') }}"></script>
+    <script src="{{ asset('public/frontend/assets/js/jquery-3.3.1.min.js') }}"></script>
+    <script src="{{ asset('public/frontend/assets/styles/bootstrap4/popper.js') }}"></script>
+    <script src="{{ asset('public/frontend/assets/styles/bootstrap4/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('public/frontend/assets/plugins/greensock/TweenMax.min.js') }}"></script>
+    <script src="{{ asset('public/frontend/assets/plugins/greensock/TimelineMax.min.js') }}"></script>
+    <script src="{{ asset('public/frontend/assets/plugins/scrollmagic/ScrollMagic.min.js') }}"></script>
+    <script src="{{ asset('public/frontend/assets/plugins/greensock/animation.gsap.min.js') }}"></script>
+    <script src="{{ asset('public/frontend/assets/plugins/greensock/ScrollToPlugin.min.js') }}"></script>
+    <script src="{{ asset('public/frontend/assets/plugins/OwlCarousel2-2.2.1/owl.carousel.js') }}"></script>
+    <script src="{{ asset('public/frontend/assets/plugins/slick-1.8.0/slick.js') }}"></script>
+    <script src="{{ asset('public/frontend/assets/plugins/easing/easing.js') }}"></script>
+    <script src="{{ asset('public/frontend/assets/js/custom.js') }}"></script>
 </body>
 
 </html>

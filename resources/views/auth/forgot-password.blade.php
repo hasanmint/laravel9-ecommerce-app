@@ -8,14 +8,14 @@
     <meta content="Admin & Dashboard laravel" name="description" />
     <meta content="laraveldevs" name="author" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="{{ asset('backend/assets/images/favicon.ico') }}">
+    <link rel="shortcut icon" href="{{ asset('public/backend/assets/images/favicon.ico') }}">
     <!-- Bootstrap Css -->
-    <link href="{{ asset('backend/assets/css/bootstrap.min.css') }}" id="bootstrap-style" rel="stylesheet"
+    <link href="{{ asset('public/backend/assets/css/bootstrap.min.css') }}" id="bootstrap-style" rel="stylesheet"
         type="text/css" />
     <!-- Icons Css -->
-    <link href="{{ asset('backend/assets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('public/backend/assets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
     <!-- App Css-->
-    <link href="{{ asset('backend/assets/css/app.min.css') }}" id="app-style" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('public/backend/assets/css/app.min.css') }}" id="app-style" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -34,7 +34,7 @@
                                     </div>
                                 </div>
                                 <div class="col-5 align-self-end">
-                                    <img src="{{ asset('backend/assets/images/profile-img.png') }}" alt=""
+                                    <img src="{{ asset('public/backend/assets/images/profile-img.png') }}" alt=""
                                         class="img-fluid">
                                 </div>
                             </div>
@@ -44,7 +44,7 @@
                                 <a href="index.html" class="auth-logo-light">
                                     <div class="mb-4 avatar-md profile-user-wid">
                                         <span class="avatar-title rounded-circle bg-light">
-                                            <img src="{{ asset('backend/assets/images/logo.png') }}" alt=""
+                                            <img src="{{ asset('public/backend/assets/images/logo.png') }}" alt=""
                                                 class="rounded-circle" height="34">
                                         </span>
                                     </div>
@@ -53,7 +53,7 @@
                                 <a href="index.html" class="auth-logo-dark">
                                     <div class="mb-4 avatar-md profile-user-wid">
                                         <span class="avatar-title rounded-circle bg-light">
-                                            <img src="{{ asset('backend/assets/images/logo.png') }}" alt=""
+                                            <img src="{{ asset('public/backend/assets/images/logo.png') }}" alt=""
                                                 class="rounded-circle" height="34">
                                         </span>
                                     </div>
@@ -108,14 +108,14 @@
     <!-- end account-pages -->
 
     <!-- JAVASCRIPT -->
-    <script src="{{ asset('backend/assets/libs/jquery/jquery.min.js') }}"></script>
-    <script src="{{ asset('backend/assets/libs/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('backend/assets/libs/metismenu/metisMenu.min.js') }}"></script>
-    <script src="{{ asset('backend/assets/libs/simplebar/simplebar.min.js') }}"></script>
-    <script src="{{ asset('backend/assets/libs/node-waves/waves.min.js') }}"></script>
+    <script src="{{ asset('public/backend/assets/libs/jquery/jquery.min.js') }}"></script>
+    <script src="{{ asset('public/backend/assets/libs/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('public/backend/assets/libs/metismenu/metisMenu.min.js') }}"></script>
+    <script src="{{ asset('public/backend/assets/libs/simplebar/simplebar.min.js') }}"></script>
+    <script src="{{ asset('public/backend/assets/libs/node-waves/waves.min.js') }}"></script>
 
     <!-- App js -->
-    <script src="{{ asset('backend/assets/js/app.js') }}"></script>
+    <script src="{{ asset('public/backend/assets/js/app.js') }}"></script>
 
 </body>
 

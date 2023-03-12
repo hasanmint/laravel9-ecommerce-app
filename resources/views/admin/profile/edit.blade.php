@@ -85,7 +85,7 @@
                     <div class="mb-3 row">
                         <label for="example-tel-input" class="col-md-2 col-form-label"></label>
                         <div class="col-md-10">
-                            <img id="showImage" src="{{ (!empty($EditData->photo))? url('upload/profile_photo/'.$EditData->photo):url('upload/avatar_default.png') }}"
+                            <img id="showImage" src="{{ (!empty($EditData->photo))? url('public/upload/profile_photo/'.$EditData->photo):url('public/upload/avatar_default.png') }}"
                                 alt="profile-image" class="rounded avatar-lg" height="200">
                         </div>
                     </div>
